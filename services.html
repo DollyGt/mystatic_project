@@ -1,146 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <meta http-equiv="X-UA-Compatible" content="ie=edge">
- <title>TruBlue</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
- <link rel="stylesheet" href="css/main.css">
- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
- <script src="js/fontawesome-all.js"></script>
- <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
-
+    <title>Static project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
-<body>
-
- <!--social icons-->
-
- <div class="container-fluid info p-3" id="top-icons">
-  <div class="row">
-   <div class="col d-flex justify-content-between align-items-baseline flex-wrap">
-    <div class="info-icons p-2">
-     <a href="#" class="mr-2 primary-color"><i class="fab fa-facebook fa-2x"></i></a>
-     <a href="#" class="mr-2 primary-color"><i class="fab fa-instagram fa-2x"></i></a>
-     <a href="#" class="mr-2 primary-color"><i class="fab fa-twitter fa-2x"></i></a>
-     <a href="#" class="mr-2 primary-color"><i class="fab fa-snapchat fa-2x"></i></a>
+<body id="services">
+<section id="top-bar">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 text-left contact">
+                <span>Email: <a href="mailto:info@example.com">info@example.com</a></span> |
+                <span>Phone: <a href="tel:+353123456789">+353 123456789</a></span>
+            </div>
+            <div class="col-sm-6 text-right social">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> &nbsp;
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a> &nbsp;
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> &nbsp;
+                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            </div>
+        </div>
     </div>
-    <!-------end of social icons---  -->
-    <!---start of a navbar----->
+</section>
+<section id="header">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">TruBlu</a>
+            </div>
 
-    <nav id="navsorting">
-     <ul id="navbar">
-       <li><a href="index.html">Home</a></li>
-       <li><a href="services.html">Services</a></li>
-       <li><a href="about.html">About</a></li>
-       <li><a href="portfolio.html">Portfolio</a></li>
-       <li><a href="contact.html">Contacts</a></li>
-     </ul>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li ><a href="index.html">Home </a></li>
+                    <li class="active"><a href="services.html">Services <span class="sr-only">(current)</span></a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
     </nav>
-   </div>
-  </div>
- </div>
-
- <!------end of a navbar------->
- <!----header section----->
-
- <header id="header-services">
-  <div class="container">
-   <div class="row height-90 align-items-center justify-content-center">
-    <div class="col">
-
-     <div class="banner text-center">
-      <h1 class="display-1 text-capitalize w-100  mx-auto">
-       We are committed into providing first class services for all your needs</h1>
-     
-     </div>
+</section>
+<section id="content">
+    <div id="hero" class="container-fluid text-center">
+        <h1>We are Comitted into Providing First Class Services For all your Needs</h1>
+        <a href="contact.html" class="btn btn-success">Get in Touch</a>
     </div>
-   </div>
-  </div>
-
-  <a href="#services" class="btn header-link primary-color"><i class="fas fa-arrow-down"></i></a>
- </header>
- 
- 
- <section id="services">
-  <div class="title">
-   <div class="title-text">
-    <h1>Services</h1>
-   </div>
-   <div class="title-underline"></div>
-  </div>
- 
-  <div class="services-container">
-   <article class="service-item service-item-black">
-    <div class="font-text">
-     <i class="fa fa-home fa-3x"></i>
-     </br>
-     <h1>Home Services</h1>
+    <div id="services-box" class="container text-center">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="main">Service 1</div>
+                <div class="details">Details 1<br> lorem ipsum</div>
+            </div>
+            <div class="col-sm-6">
+                <div class="main">Service 2</div>
+                <div class="details">Details 2<br> lorem ipsum</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="main">Service 3</div>
+                <div class="details">Details 3<br> lorem ipsum</div>
+            </div>
+            <div class="col-sm-6">
+                <div class="main">Service 4</div>
+                <div class="details">Details 4<br> lorem ipsum</div>
+            </div>
+        </div>
     </div>
-    <div class="back-text">
-     <!--<h1>Home Services</h1>-->
-     <p>we provide pest control services and tend your garden to give you a safe and beautiful environment </p>
-     <button type="button">Learn more</button>
+</section>
+<section id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <p>Per metus donec consectetur luctus hac ac vitae dis est parturient integer duis potenti a ullamcorper ac vel tellus vehicula suspendisse himenaeos iaculis facilisis parturient. Tincidunt vestibulum consectetur adipiscing per integer potenti adipiscing adipiscing hac a praesent facilisis consectetur a a eros phasellus a in a dolor mi a aliquet non. Magna a mi cursus curabitur donec porttitor tincidunt ac montes vel diam nec sem parturient magna nisi a cum magna eros. Sagittis eu scelerisque posuere velit natoque lacus vestibulum facilisis montes nibh parturient consectetur a mauris eget cum vestibulum nam suspendisse venenatis. Taciti fames mi arcu condimentum parturient eu posuere fames a sociis gravida ut nullam lobortis interdum ultrices ullamcorper auctor at duis est interdum cras aliquam a sociis consectetur.</p>
+            </div>
+            <div class="col-sm-4">
+                <p>Sed mollis parturient a mollis a scelerisque condimentum scelerisque a hac adipiscing adipiscing potenti convallis lobortis volutpat eu aliquet nibh natoque tincidunt a parturient. Ridiculus habitasse sit pretium ultrices consectetur praesent adipiscing ipsum nisi a nascetur sem cursus amet sociis penatibus et non metus. Nisi ac a penatibus lacinia mus a in ullamcorper himenaeos interdum parturient et scelerisque iaculis. A egestas porttitor vehicula vestibulum id libero dui ac diam dui a parturient congue parturient parturient vel ultrices mi non condimentum pharetra nam mattis.</p>
+            </div>
+            <div class="col-sm-4">
+                <p>Dis quam arcu hac suspendisse ipsum proin ut nisi sociosqu lectus cum consectetur cras proin quis blandit a ullamcorper potenti dui cras mi ac purus consectetur parturient torquent. Scelerisque suspendisse ullamcorper ultricies maecenas fermentum adipiscing a suspendisse scelerisque elementum porta a urna purus iaculis in semper pharetra penatibus. Elementum parturient diam malesuada montes parturient ut sed maecenas lacinia mus sem tortor penatibus adipiscing est dictum et scelerisque consectetur parturient vehicula sagittis.</p>
+            </div>
+        </div>
     </div>
-   </article>
-   <!--</div>-->
- 
-   <article class="service-item service-item-white">
-    <div class="font-text">
-     <i class="fa fa-desktop fa-3x"></i>
-     <h1>Office Services</h1>
-    </div>
-    <div class="back-text">
-     <!--<h1>Office Services</h1>-->
-     <p>Our wide range of office services ensures that your work place is not only the place you work at but the place you also love to be at.</p>
-     <button type="button">Learn more</button>
-    </div>
-   </article>
- 
- 
- <article class="service-item service-item-black">
-  <div class="font-text">
-   <i class="fa fa-cart-plus fa-3x"></i>
-   <h1>Personal Services</h1>
-  </div>
-  <div class="back-text">
-   <!--<h1>Personal Services</h1>-->
-   <p>We are available for personal services such as helping you shop or deliver your goods to anywhere around the country </p>
-   <button type="button">Learn more</button>
-  </div>
- </article>
- 
- <article class="service-item service-item-white">
-  <div class="font-text">
-   <i class="fa fa-school fa-3x"></i>
-   <h1>Child Care Services</h1>
-  </div>
-  <div class="back-text">
-   <!--<h1>Child Care Sevices</h1>-->
-   <p>we look after your children and Aged parents or relatives the way you would want them to be cared for. </p>
-   <button type="button">Learn more</button>
-  </div>
- </article>
- </div>
- </section>
- </br>
- </br>
- 
- <!---------start of services clarified section-------->
- <footer class="services_footer">
-  <div class="banner text-center">
-      <h1 class="display-1 text-capitalize w-100 mx-auto">
-       Have Any Suggestions?</br>
-       We Would Like To Hear From You</h1>
-     
-     </div>
- </footer>
- 
- 
- <!------end of services clarified section------->
- 
- 
+</section>
 </body>
+
 </html>

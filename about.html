@@ -1,107 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <meta http-equiv="X-UA-Compatible" content="ie=edge">
- <title>TruBlue</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
- <link rel="stylesheet" href="css/main.css">
- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
- <script src="js/fontawesome-all.js"></script>
- <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
-
+    <title>Static project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
-<body>
-
- <!--social icons-->
-
- <div class="container-fluid info p-3" id="top-icons">
-  <div class="row">
-   <div class="col d-flex justify-content-between align-items-baseline flex-wrap">
-    <div class="info-icons p-2">
-     <a href="#" class="mr-2 primary-color"><i class="fab fa-facebook fa-2x"></i></a>
-     <a href="#" class="mr-2 primary-color"><i class="fab fa-instagram fa-2x"></i></a>
-     <a href="#" class="mr-2 primary-color"><i class="fab fa-twitter fa-2x"></i></a>
-     <a href="#" class="mr-2 primary-color"><i class="fab fa-snapchat fa-2x"></i></a>
-    </div>
-    <!-------end of social icons---  -->
-    <!---start of a navbar----->
-
-    <nav id="navsorting">
-     <ul id="navbar">
-       <li><a href="index.html">Home</a></li>
-       <li><a href="services.html">Services</a></li>
-       <li><a href="about.html">About</a></li>
-       <li><a href="portfolio.html">Portfolio</a></li>
-       <li><a href="contact.html">Contacts</a></li>
-     </ul>
-    </nav>
-   </div>
-  </div>
- </div>
-
- <!------end of a navbar------->
- <!----header section----->
-
- <header id="header_about">
-  <div class="container">
-   <div class="row height-90 align-items-center justify-content-center">
-    <div class="col">
-
-     <div class="banner text-center">
-      <h1 class="display-3 text-capitalize w-50 mx-auto">
-       <strong class="primary-color"> Who we are</strong></h1>
-       <h2>Professionalism is our culture</h2>
-      <a href="contact.html" class="btn main-btn service-btn my-4 text-capitalize">Book a service</a>
-     </div>
-    </div>
-   </div>
-  </div>
-
- 
- </header>
- </br>
- 
-  <!-------start of about us------>
- <section id="about">
-  <div class="about-container">
-   <div class="title-text">
-    <h1>About Us</h1>
-   </div>
-   <div class="title-underline"></div>
-  </div>
-  <hr>
- 
-  <p class="about_intro">LoremAs of 2017, text messages are used by youth and adults for personal, family and social purposes and in business. Governmental and non-governmental organizations use text messaging for communication between colleagues. As with emailing, in the 2010s, the sending of short informal messages has become an accepted part of many cultures.[1] This makes texting a quick and easy way to communicate with friends and colleagues, </p> 
-  
- </section>
- <!-----end of about us introduction---->
-
-  <section class="about_people">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5">
-                    <img src="img/office_staff.jpg" alt="office personnel">
-                </div>
-                <div class="col-sm-7">
-                   <h2>We take pride in what we do</h2> 
-                   <p>LoremAs of 2017, text messages are used by youth and adults for personal, family and social purposes and in business. Governmental and non-governmental organizations use text messaging for communication between colleagues. As with emailing, in the 2010s, the sending of short informal messages has become an accepted part of many cultures.[1] This makes texting a quick and easy way to communicate with friends and colleagues,</p>
-                   
-                   
-                   <h2>We take pride in what we do</h2>
-                   <p>LoremAs of 2017, text messages are used by youth and adults for personal, family and social purposes and in business. Governmental and non-governmental organizations use text messaging for communication between colleagues. As with emailing, in the 2010s, the sending of short informal messages has become an accepted part of many cultures.[1] This makes texting a quick and easy way to communicate with friends and colleagues,</p>
-                   </hr>
-                   <a href="contact.html" class="btn main-btn service-btn my-4 text-capitalize">get in touch</a>
-                </div>
+<body id="contact">
+<section id="top-bar">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 text-left contact">
+                <span>Email: <a href="mailto:info@example.com">info@example.com</a></span> |
+                <span>Phone: <a href="tel:+353123456789">+353 123456789</a></span>
+            </div>
+            <div class="col-sm-6 text-right social">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> &nbsp;
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a> &nbsp;
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> &nbsp;
+                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
             </div>
         </div>
-    </section>
- 
- 
- 
- 
+    </div>
+</section>
+<section id="header">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">TruBlu</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li ><a href="index.html">Home </a></li>
+                    <li><a href="services.html">Services <span class="sr-only">(current)</span></a></li>
+                    <li ><a href="about.html">About</a></li>
+                    <li ><a href="portfolio.html">Portfolio</a></li>
+                    <li class="active"><a href="contact.html">Contacts</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</section>
+<section id="content">
+    <div id="hero" class="container-fluid text-center">
+        <h1>Contact Page</h1>
+    </div>
+    <div id="contact-box" class="container text-left">
+        <div class="row">
+            <div class="col-sm-6">
+                <h3>To contact us please use contact form below:</h3>
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your message</label>
+                        <textarea class="form-control" rows="5" id="message"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-default">Submit</button>
+                    <br><br>
+                </form>
+            </div>
+            <div class="col-sm-6">
+                <br>
+                <div id="map" style="width:100%; min-height: 350px;"></div>
+                <br>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <p>Per metus donec consectetur luctus hac ac vitae dis est parturient integer duis potenti a ullamcorper ac vel tellus vehicula suspendisse himenaeos iaculis facilisis parturient. Tincidunt vestibulum consectetur adipiscing per integer potenti adipiscing adipiscing hac a praesent facilisis consectetur a a eros phasellus a in a dolor mi a aliquet non. Magna a mi cursus curabitur donec porttitor tincidunt ac montes vel diam nec sem parturient magna nisi a cum magna eros. Sagittis eu scelerisque posuere velit natoque lacus vestibulum facilisis montes nibh parturient consectetur a mauris eget cum vestibulum nam suspendisse venenatis. Taciti fames mi arcu condimentum parturient eu posuere fames a sociis gravida ut nullam lobortis interdum ultrices ullamcorper auctor at duis est interdum cras aliquam a sociis consectetur.</p>
+            </div>
+            <div class="col-sm-4">
+                <p>Sed mollis parturient a mollis a scelerisque condimentum scelerisque a hac adipiscing adipiscing potenti convallis lobortis volutpat eu aliquet nibh natoque tincidunt a parturient. Ridiculus habitasse sit pretium ultrices consectetur praesent adipiscing ipsum nisi a nascetur sem cursus amet sociis penatibus et non metus. Nisi ac a penatibus lacinia mus a in ullamcorper himenaeos interdum parturient et scelerisque iaculis. A egestas porttitor vehicula vestibulum id libero dui ac diam dui a parturient congue parturient parturient vel ultrices mi non condimentum pharetra nam mattis.</p>
+            </div>
+            <div class="col-sm-4">
+                <p>Dis quam arcu hac suspendisse ipsum proin ut nisi sociosqu lectus cum consectetur cras proin quis blandit a ullamcorper potenti dui cras mi ac purus consectetur parturient torquent. Scelerisque suspendisse ullamcorper ultricies maecenas fermentum adipiscing a suspendisse scelerisque elementum porta a urna purus iaculis in semper pharetra penatibus. Elementum parturient diam malesuada montes parturient ut sed maecenas lacinia mus sem tortor penatibus adipiscing est dictum et scelerisque consectetur parturient vehicula sagittis.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+    // Initialize and add the map
+    function initMap() {
+        // The location of Uluru
+        var uluru = {lat: 53.2873704, lng: -6.3767803};
+        // The map, centered at Uluru
+        var map = new google.maps.Map(
+            document.getElementById('map'), {zoom: 11, center: uluru});
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({position: uluru, map: map});
+    }
+</script>
+<!--Load the API from the specified URL
+* The async attribute allows the browser to render the page while the API loads
+* The key parameter will contain your own API key (which is not needed for this tutorial)
+* The callback parameter executes the initMap() function
+-->
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDygNeolG94Ds0dcZaCekiLyy8AYbHtqmY&callback=initMap">
+</script>
 </body>
+
 </html>
