@@ -1,8 +1,10 @@
 # Concierge Services - User Centric Frontend Development
-Naledi's Concierge Services is a unique personal assistance service provider designed to provide companies and individuals with a diverse errands assistance
+
+Naledi's Concierge Services is a unique personal assistance service provider designed to provide companies and individuals with a diverse errands assistance.
 
 # UX
-The site represents a family concierge services which offers dynamic services to customers. By taking care of the user's "to do" list,  the services provided can help them find that balance between family, work and other life priorities. Taking into consideration the value of their time, enomous dedication to making their lives easier is a priority. No matter how ordinary or unusual the request, our experienced staff can be relied upon to find the best solution. We provide assistance where we are needed, whether from your home or your office, from our office on a virtual basis, or out  running errands.  This is a unique service provider which prides itsself of being completely hands on and proud to gain a personalized knowledge of each client, ensuring unprecedented service and personalized guidance. 
+
+The site represents a family concierge services which offers dynamic services to customers. By taking care of the user's "to do" list,  the services provided can help them find that balance between family, work and other life priorities. Taking into consideration the value of their time, enomous dedication to making their lives easier is a priority. No matter how ordinary or unusual the request, the services offered can be relied upon in terms of finding the best solutions. The services are provided where needed, whether from user's home or their office, on a virtual basis. This is a unique service provider which prides itsself of being completely hands on and proud to gain a personalized knowledge of each client, ensuring unprecedented service and personalized guidance. 
 
 A live demo can be found here(onclick)-----
 
@@ -39,13 +41,17 @@ The project uses JQuery to simplify DOM manipulation.
 This wesite consist of only one form, that is, the contact form. Should the user attempt to submit incorrect email address or empty form, there would be met with an error message indicationg that the email address is incorrect or that the method is invalid. In any case, the form will not get submitted.
 
 # Deployment
+
 For deployment of this site, GitHub pages are used for hosting.
 
 # Content
+
 Some contents from the services section was obtained from---------------------
 
 # Media
+
 The photos used in this site were obtained from pexels website
 
 # Acknowledgements
+
 I received inspiration for this project from X
