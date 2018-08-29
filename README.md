@@ -12,6 +12,9 @@ A live demo can be found [here](https://blackrockdigital.github.io/startbootstra
 
 * Below is how the website looks on different screens
 
+![alt text](https://github.com/DollyGt/mystatic_project/blob/master/images-carousel/screenshot1.png)
+![alt text](https://github.com/DollyGt/mystatic_project/blob/master/images-carousel/screenshot2.png)
+
 # Wireframes
 
 All wireframes are drawn with a pencil and can be found in the images folder in the main project. 
