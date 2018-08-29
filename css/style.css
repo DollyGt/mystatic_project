@@ -48,19 +48,18 @@
     opacity: 0;
     position: relative;
     top: 200px;
-    transition: all 0.5s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 #services-box .col-sm-6:hover .details {
     opacity: 1;
     top: 0px;
-    background-color: gray;
+    background-color: #FFFFFF;
 }
 #my-service{
-    background-image: url("../img/hero7.jpg"); 
+    background-color: gray;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    opacity: 0.5;
 }
 
 #top-bar {
@@ -78,9 +77,18 @@
 #top-bar .social a:hover i {
     transform: scale(2);
 }
-.btn-success{
-    
+.btn-success {
+    background-color:#008080 ;
+    border-color: gray;
+    margin: 5px;
 }
-.btn-success:hover{
-    
+
+.btn-success:hover {
+    background-color:#ee3780 ;
+    border-color:#FFFFFF ;
 }
+
+.main{
+    color: #FFFFFF;
+}
+    
