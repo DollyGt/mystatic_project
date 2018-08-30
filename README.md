@@ -8,7 +8,7 @@ The site represents a family concierge services which offers dynamic services to
 
 The choice of this website is a courtesy to my best friend who recently along with her family started a concierge business and are now looking for a simple, yet user friendly website to offer their services. 
 
-A live demo can be found [here](https://blackrockdigital.github.io/startbootstrap-business-casual/about.html)
+A live demo can be found [here](https://dollygt.github.io/mystatic_project/index.html)
 
 * Below is how the website looks on different screens
 
