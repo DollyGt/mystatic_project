@@ -39,9 +39,8 @@ All wireframes are drawn with a pencil and can be found in the images folder in 
  
  3.Bootstrap
  
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-
+ 4.Google fonts/font-awesome
+ 
 # Testing
 
 This wesite consist of only one form, that is, the contact form. Should the user attempt to submit incorrect email address or empty form, there would be met with an error message indicationg that the email address is incorrect or that the method is invalid. In any case, the form will not get submitted otherwise the form work work correctly as intended.
@@ -53,5 +52,5 @@ For deployment of this site, GitHub pages are used for hosting.
 
 # Media
 
-The photos used in this site were obtained from pexels website.
+The photos used in this site were obtained from [pexels](https://www.pexels.com/) website.
 
