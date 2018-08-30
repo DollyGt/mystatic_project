@@ -16,7 +16,7 @@ A live demo can be found [here](https://dollygt.github.io/mystatic_project/index
 
 ![alt text](https://github.com/DollyGt/mystatic_project/blob/master/images-carousel/screenshot1.png)
 ![alt text](https://github.com/DollyGt/mystatic_project/blob/master/images-carousel/screenshot2.png)
-![alt text](https://github.com/DollyGt/mystatic_project/blob/master/images-carousel/screenshot2.png)
+![alt text](https://github.com/DollyGt/mystatic_project/blob/master/images-carousel/screenshot3.png)
 
 
 # Wireframes
