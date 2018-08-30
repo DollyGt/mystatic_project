@@ -1,6 +1,6 @@
 
 #hero {
-    background-image: url("../img/hero1.jpg");
+    background-image: url("../images-carousel/hero.jpg");
     background-size: cover;
     background-position: center 20%;
     padding: 100px 0px 100px;
@@ -77,18 +77,26 @@
 #top-bar .social a:hover i {
     transform: scale(2);
 }
-.btn-success {
-    background-color:#008080 ;
-    border-color: gray;
-    margin: 5px;
+.btn-success, .main-btn {
+    color: #008080;
+    font-size: 2rem;
+    border: 2px solid #c9c1ac;
+    background: #c9c1ac;
+    transition: all 1s ease-in-out;
+    margin: 0 10px;
 }
 
-.btn-success:hover {
-    background-color:#ee3780 ;
-    border-color:#FFFFFF ;
+.btn-success, .main-btn:hover {
+    color: #242424;
+    border: 2px solid #c9c1ac;
+    background: #c9c1ac;
 }
 
 .main{
     color: #FFFFFF;
 }
-    
+.footer-social{
+    font-size: 30px;
+}
+.footer-social:hover{
+} 

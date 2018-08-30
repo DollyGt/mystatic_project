@@ -25,11 +25,9 @@ All wireframes are drawn with a pencil and can be found in the images folder in 
 
 2: Services page - this a page which provides the user with detailed information of what sort of services are provided
 
-3: Portfolio - this page samples some of the work in pictures that the site has undertaken
+3: About - this page intoduces the user to the history of the company and a brief overview of what it stands for
 
-4: About - this page intoduces the user to the history of the company and a brief overview of what it stands for
-
-5: Contact - this page is a contact page in which all correspondence between clints and staff would be sort
+4: Contact - this page is a contact page in which all correspondence between clints and staff would be sort
 
 # Technologies Used
 
@@ -46,7 +44,7 @@ The project uses JQuery to simplify DOM manipulation.
 
 # Testing
 
-This wesite consist of only one form, that is, the contact form. Should the user attempt to submit incorrect email address or empty form, there would be met with an error message indicationg that the email address is incorrect or that the method is invalid. In any case, the form will not get submitted.
+This wesite consist of only one form, that is, the contact form. Should the user attempt to submit incorrect email address or empty form, there would be met with an error message indicationg that the email address is incorrect or that the method is invalid. In any case, the form will not get submitted otherwise the form work work correctly as intended.
 
 # Deployment
 
