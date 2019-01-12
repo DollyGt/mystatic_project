@@ -59,7 +59,7 @@
 #services{
     min-height: 100vh;
     background-color: #DCDCDC;
-    padding: 20px 0 80px 0;
+    /*padding: 20px 0 80px 0;*/
 }
 
 .services-container{
@@ -194,8 +194,8 @@
 
 .container-one{
     text-align: center;
-    font-size: 12px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    font-size: 11px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #808080;
 }
